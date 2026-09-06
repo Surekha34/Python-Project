@@ -32,7 +32,9 @@ def tgrade(total):
         if total < 35:
             return "Fail"
 print(tgrade(tp))
-
+print()
+print("#Subject wise grade")
+print()
 submaxm=int(input("sub.Maximum marks:"))
 print()
 def grade(total):
